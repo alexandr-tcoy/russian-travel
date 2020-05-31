@@ -1,0 +1,15 @@
+.place__website {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: end;
+  justify-self: start;
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    display: none;
+  }
+}
