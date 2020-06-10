@@ -9,37 +9,25 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
   text-decoration: none;
-  width: 1184px;
   height: 740px;
-  max-width: 100%;
   z-index: 1;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    width: 1024px;
-    /*padding: 0 0 92px 0;*/
     height: 640px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    width: 768px;
-   /* padding: 0 0 88px 0;*/
     height: 480px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__overlay {
     height: 200px;
-   /* padding: 0 0 64px 0;*/
-    width: 320px;
-    max-width: 100%;
   }
 }
 

@@ -8,19 +8,18 @@
   width: 640px;
   max-width: 100%;
   margin: 0;
+ box-sizing: border-box; 
 }
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     padding: 0 0 56px 0;
-    width: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     padding: 0 0 56px 0;
-    width: 640px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -28,6 +27,5 @@
     font-size: 16px;
     line-height: 1.25;
     padding: 0 0 40px 0;
-    width: 288px;
   }
 }

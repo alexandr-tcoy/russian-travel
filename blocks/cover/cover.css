@@ -7,29 +7,22 @@
   height: 740px;
   max-width: 100%;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 1024px;
     height: 640px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 768px;
     height: 480px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
     height: 200px;
-    width: 320px;
-    max-width: 100%;
   }
 }
