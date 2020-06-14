@@ -5,6 +5,7 @@
   align-items: center;
   position: relative;
   background-image: url(../../../images/cover-trains.jpg);
+  background-position: center;
   background-size: cover;
   background-color: #2A2C2F;
   color: #FFFFFF;
@@ -41,8 +42,9 @@
   background-color: #2A2C2F;
   opacity: .3;
   z-index: -1;
+  transition: all 1s ease-out;
 }
 
-.cover__overlay:hover.cover__overlay:before {
+.cover__overlay:hover::before {
   opacity: .8;
 }

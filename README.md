@@ -1,4 +1,5 @@
-# Проект 3
+# [Проект 3](https://alexandr-tcoy.github.io/russian-travel/) 
+**https://alexandr-tcoy.github.io/russian-travel/**
 
 **Путешествие по России**
 

@@ -25,9 +25,3 @@
     padding: 0;
   }
 }
-
-@media screen and (max-width: 660px) {
-  .lead {
-    padding: 0;
-  }
-}

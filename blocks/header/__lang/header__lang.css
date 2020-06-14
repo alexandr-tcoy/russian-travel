@@ -1,20 +1,18 @@
-.header__lang-link_En {
-  text-decoration-line: none;
-  padding: 18px 0 6px 0;
+.header__lang {
   color: #FFFFFF;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
+  text-decoration-line: none;
 }
 
-.header__lang-link_En:hover {
-  text-decoration-line: underline;
+.header__lang:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 425px) {
-  .header__lang-link_En {
+  .header__lang {
     font-size: 18px;
     line-height: 1.33;
   }
