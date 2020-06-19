@@ -1,19 +1,19 @@
-@import url(./_value_style/footer__link_value_style.css);
-
 .footer__link {
-  padding: 0 18px 0 0;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
 }
 
-.footer__link:last-child {
-  padding: 0;
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 673px) {
   .footer__link {
-    padding: 0 0 32px 0;
-  }
-
-  .footer__link:last-child {
-    padding: 0 0 48px 0;
+    font-size: 24px;
+    line-height: 1;
   }
 }

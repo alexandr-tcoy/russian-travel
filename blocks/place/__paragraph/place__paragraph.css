@@ -1,31 +1,16 @@
-@import url(./_text/place__paragraph_text.css);
-
 .place__paragraph {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  color: #FFFFFF;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.67;
   align-self: start;
   justify-self: start;
   max-width: 100%;
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 1.63;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .place__paragraph {
-    padding: 0 16px 0 16px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
