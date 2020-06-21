@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
   .places {
     padding: 64px 0 64px 0;
     grid-row-gap: 48px;
